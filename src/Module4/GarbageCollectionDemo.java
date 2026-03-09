@@ -1,4 +1,4 @@
-package GarbageCollection;
+package Module4;
 
 public class GarbageCollectionDemo
 {

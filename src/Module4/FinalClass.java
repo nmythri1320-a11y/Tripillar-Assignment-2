@@ -1,4 +1,4 @@
-package FinalPrograms;
+package Module4;
 
 final class FinalClass
 {

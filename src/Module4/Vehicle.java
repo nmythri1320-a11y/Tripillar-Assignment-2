@@ -1,4 +1,4 @@
-package InterfaceProgram;
+package Module4;
 
 public interface Vehicle
 {
