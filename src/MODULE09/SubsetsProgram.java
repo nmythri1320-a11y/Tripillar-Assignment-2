@@ -1,0 +1,23 @@
+package MODULE09;
+
+public class SubsetsProgram
+{
+    static void generate(int[] arr, int index, String current)
+    {
+
+        if (index == arr.length)
+        {
+            System.out.println(current);
+            return;
+        }
+
+        generate(arr, index + 1, current + arr[index] + " ");
+        generate(arr, index + 1, current);
+    }
+
+    public static void main(String[] args)
+    {
+        int[] arr = {1,2,3};
+        generate(arr,0,"");
+    }
+}
